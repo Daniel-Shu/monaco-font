@@ -61,19 +61,34 @@ Many thanks for all the contributions!
 ```
 
 其他修改项 *https://blog.csdn.net/qq_26990831/article/details/51847416
+
   monaco字体是苹果系统下的字体，非常的好看，是我最喜欢的字体没有之一。现在我们就来在ubuntu下安装这个漂亮的字体
+  
 第一步：
+
              进入github下载这个字体，github地址是*https://github.com/cstrap/monaco-font 我们选择download zip的压缩包就可以。
+             
 第二步：
+
              进入本地下载目录，解压刚刚下载的压缩包，进入解压后的文件夹，我们会看到这几个文件
+             
              install-font-archlinux.sh
+             
              install-font-centos.sh
+             
              install-font-gentoo.sh
+             
              install-font-ubuntu.sh
+             
              README.md
+             
              接下来我们打开README.md文件，里面写的很详细，如何安装，ttf文件的下载链接都有
+             
 第三步：
-             在README.md中有一行这样的命令./install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF，但是googlecode已经关闭了，所以我们要在README.md中另外找个下载链接。我用的是https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true这个链接。
+
+             在README.md中有一行这样的命令./install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF ，但是googlecode已经关闭了，所以我们要在README.md中另外找个下载链接。我用的是 https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true 这个链接。
+             
 第四步：
+
              打开终端进入解压后的目录执行sudo ./install-font-ubuntu.sh https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true这个命令，OK安装完成。这样我们就可以把终端和文本编辑器的字体设置成monaco了，你所用的开发工具也一样可以使用这个字体了。完美。
 
